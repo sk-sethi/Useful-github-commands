@@ -52,6 +52,6 @@
 |Amending Commit| 1. git log --oneline 2. git add . 3. git commit --amend --no-edit |
 |Rewording Commit|1. git log --oneline 2. git rebase -i HEAD~1 3. opens up an editor window modify pick to reword then save 4. opens up window to change the text then save |
 |Deleteing Commit|1. git rebase -i HEAD~2 2. opens up an editor window modify pick to drop then save  |
-|Reordering Commit| |
-|Squashing Commit| |
+|Reordering Commit|1. git rebase -i HEAD~3 2. opens up an editor window just reorder the commits and save |
+|Squashing Commit|1. git rebase -i HEAD~3 2. opens up an editor window just modify commits pick to squash or fixup then save|
 |Splitting Commit| |
