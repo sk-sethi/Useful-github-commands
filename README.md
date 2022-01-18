@@ -49,7 +49,7 @@
 
 | ** Case** | **Steps**|
 |-----------|-----------|
-|Amending Commit| |
+|Amending Commit| 1. git log --oneline 2. git add . 3. git commit --amend --no-edit |
 |Rewording Commit| |
 |Deleteing Commit| |
 |Reordering Commit| |
